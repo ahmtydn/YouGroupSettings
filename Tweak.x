@@ -15,6 +15,7 @@ static const NSInteger YTUHD = 'ythd';
 static const NSInteger YouSlider = 'ytsl';
 static const NSInteger YTweaks = 'ytwk';
 static const NSInteger YTFlags = 'ytfl';
+static const NSInteger YTTweaksKit = 'yttk';
 
 NSBundle *TweakBundle() {
     static NSBundle *bundle = nil;
@@ -61,6 +62,7 @@ NSBundle *TweakBundle() {
             @(YouSlider),
             @(2168), // YTHoldForSpeed
             @(1222), // YTVideoOverlay
+            @(YTTweaksKit), // YTTweaksKit
         ]];
     });
     return tweaks;
